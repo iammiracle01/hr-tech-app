@@ -1,40 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HR-Tech Приложение
 
-## Getting Started
+Это приложение на Next.js, ориентированное на HR-технологии, демонстрирующее современные технологии, адаптивный дизайн и поддерживаемый код.
 
-First, run the development server:
+## Особенности
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Аутентификация пользователей**: Вход с использованием JWT токенов через GraphQL.
+- **Управление профилем**: Просмотр информации о пользователе.
+- **Адаптивный дизайн**: Полностью адаптивный интерфейс для различных устройств.
+- **Управление состоянием**: Использование Zustand для управления состоянием приложения.
+- **Интуитивно понятный интерфейс**: Использование готовых компонентов из shadcn/ui.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Используемые технологии
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Фреймворк React для серверного рендеринга и статической генерации сайтов.
+- **TypeScript**: Язык программирования с строгой типизацией для создания надежных приложений.
+- **shadcn/ui**: Компоненты UI для построения адаптивных интерфейсов.
+- **Tailwind CSS**: CSS-фреймворк с утилитарным подходом к стилизации.
+- **Apollo GraphQL**: Для управления запросами и мутациями GraphQL.
+- **Zustand**: Библиотека для управления состоянием в приложениях на React.
+- **Git**: Система контроля версий для отслеживания изменений.
+  
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Демо
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Вы можете просмотреть живое демо проекта [здесь](https://hr-tech-app-rust.vercel.app/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Установка
 
-## Learn More
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/yourusername/hr-tech-app.git
+   cd hr-tech-app
+2. Установите зависимости:
+   ```bash
+   npm install
 
-To learn more about Next.js, take a look at the following resources:
+3. Запустите сервер разработки:
+   ```bash
+     npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Откройте браузер и перейдите по адресу http://localhost:3000.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Использование
 
-## Deploy on Vercel
+1. Перейдите на страницу входа для аутентификации с использованием ваших учетных данных.
+2. После успешного входа вы будете перенаправлены на страницу **My Info / Time Off**, где будет отображена информация о вашем профиле.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Благодарности
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [shadcn/ui](https://shadcn.dev)
+- [Apollo GraphQL](https://www.apollographql.com)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Next.js](https://nextjs.org)
