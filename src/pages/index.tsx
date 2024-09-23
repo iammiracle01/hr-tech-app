@@ -41,8 +41,8 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <Card className="w-full max-w-sm">
+    <div className="min-h-screen flex items-center justify-center bg-black">
+      <Card className="w-full max-w-sm bg-white">
         <CardHeader>
           <CardTitle className="text-2xl">Авторизация</CardTitle>
           <CardDescription>Введите адрес электронной почты и пароль.</CardDescription>
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button className="w-full" type="submit" disabled={loading}>
+            <Button className="w-full bg-green-500 text-white hover:bg-green-600" type="submit" disabled={loading}>
               {loading ? "Вход..." : "Войти"}
             </Button>
           </CardFooter>
